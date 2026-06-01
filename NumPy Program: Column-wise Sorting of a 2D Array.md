@@ -12,8 +12,19 @@ To write a **NumPy** program that sorts the elements in each column of a given 2
 5. **Display Output**: Print the original array and the column-wise sorted array.
 
 ## 🧾 Program
-Add code here
+```python3
+import os
+os.environ["OMP_NUM_THREADS"]="1"
+import numpy as np
+a=eval(input())
+arr=np.array(a)
+print(arr)
+print()
+print(np.sort(arr,axis=None))
+
+```
 
 ## Output
+<img width="1541" height="725" alt="image" src="https://github.com/user-attachments/assets/6c3cfdfc-2851-4995-ad50-b155ad2d7202" />
 
 ## Result
