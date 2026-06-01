@@ -28,3 +28,4 @@ print(np.sort(arr,axis=0))
 <img width="1541" height="725" alt="image" src="https://github.com/user-attachments/assets/6c3cfdfc-2851-4995-ad50-b155ad2d7202" />
 
 ## Result
+Thus the program  that sorts the elements in each column of a given 2D array in ascending order is completed successfully.
