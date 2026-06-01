@@ -20,7 +20,7 @@ a=eval(input())
 arr=np.array(a)
 print(arr)
 print()
-print(np.sort(arr,axis=None))
+print(np.sort(arr,axis=0))
 
 ```
 
